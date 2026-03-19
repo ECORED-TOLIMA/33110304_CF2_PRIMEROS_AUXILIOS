@@ -201,7 +201,7 @@ export default {
         },
         {
           id: 10,
-          texto: 'El shock se caracteriza por:',
+          texto: 'El <em>shock</em> se caracteriza por:',
           imagen: require('@/assets/actividad/imagen10.png'),
           barajarRespuestas: true,
           opciones: [

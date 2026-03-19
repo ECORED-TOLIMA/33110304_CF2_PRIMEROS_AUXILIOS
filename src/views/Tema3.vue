@@ -38,7 +38,7 @@
         .row.py-5.px-4(titulo="c.")
           .col-lg-6.mb-4.mb-md-0.order-lg-2.order-2
             h4 C – Circulation (Circulación).
-            p.mb-0 Se valora el pulso, la coloración y temperatura de la piel, el llenado capilar y la presencia de hemorragias externas. Ante sangrado severo, se aplica presión directa inmediata, vendaje compresivo y elevación de la extremidad si es posible. La pérdida masiva de sangre puede conducir rápidamente a estado de shock.
+            p.mb-0 Se valora el pulso, la coloración y temperatura de la piel, el llenado capilar y la presencia de hemorragias externas. Ante sangrado severo, se aplica presión directa inmediata, vendaje compresivo y elevación de la extremidad si es posible. La pérdida masiva de sangre puede conducir rápidamente a estado de <em>shock</em>.
           .col-lg-6.order-lg-1.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema3/img04.jpg', alt='Imagen decorativa')
@@ -295,7 +295,7 @@
           .tarjeta.tarjeta--C02(style= "width: 100%")
             .p-4(data-aos="fade-down")
               h5.text-center Simetría bilateral.
-    p.mb-4(data-aos="fade-down") Un pulso rápido y débil puede indicar estado de shock o compromiso circulatorio. La ausencia de pulso en una persona inconsciente constituye una emergencia que exige iniciar reanimación cardiopulmonar según los lineamientos vigentes de la American Heart Association (2020).
+    p.mb-4(data-aos="fade-down") Un pulso rápido y débil puede indicar estado de <em>shock</em> o compromiso circulatorio. La ausencia de pulso en una persona inconsciente constituye una emergencia que exige iniciar reanimación cardiopulmonar según los lineamientos vigentes de la American Heart Association (2020).
     .row.align-items-center.mb-4(data-aos="flip-down")
       .col-auto.pe-0(style="z-index:2")
         figure

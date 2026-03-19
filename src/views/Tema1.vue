@@ -47,7 +47,7 @@
     .row.justify-content-center.mb-4
       .col.col-lg-10.col-12
         .cajon.cajon.C02.color-secundario.p-4
-          p.mb-0(data-aos="fade-down") Esta representación fortalece la comprensión del proceso de perfusión y permite relacionar el funcionamiento fisiológico con situaciones clínicas propias de los primeros auxilios, como el control de hemorragias, la valoración del pulso y la identificación de signos de shock.
+          p.mb-0(data-aos="fade-down") Esta representación fortalece la comprensión del proceso de perfusión y permite relacionar el funcionamiento fisiológico con situaciones clínicas propias de los primeros auxilios, como el control de hemorragias, la valoración del pulso y la identificación de signos de <em>shock</em>.
     p.mb-4(data-aos="fade-down") En el ámbito de los primeros auxilios, el primer respondiente debe ser capaz de valorar clínicamente:
     .row.justify-content-center(data-aos="flip-down")
       .col-xl-3.col-lg-8.mb-4.mb-xl-5
@@ -73,7 +73,7 @@
           .bottomCircle.mb-5
             figure
               img(src="@/assets/curso/tema1/img09.svg", alt="alt").img90.m-auto
-          h5.text-center Manifestaciones compatibles con estado de shock, tales como piel fría, sudoración, pulso débil y acelerado.
+          h5.text-center Manifestaciones compatibles con estado de <em>shock</em>, tales como piel fría, sudoración, pulso débil y acelerado.
     p(data-aos="fade-down") Las fallas en el sistema cardiovascular pueden manifestarse como hemorragias severas, colapso circulatorio o paro cardiorrespiratorio, situaciones que requieren intervención inmediata de acuerdo con los lineamientos internacionales de soporte vital básico establecidos por la American Heart Association (AHA, 2020).
     p.mb-0(data-aos="fade-down") La adecuada circulación depende, a su vez, del aporte constante de oxígeno, lo cual vincula de manera directa este sistema con el funcionamiento respiratorio.
     separador

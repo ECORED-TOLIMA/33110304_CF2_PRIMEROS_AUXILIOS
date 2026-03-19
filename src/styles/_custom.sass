@@ -86,6 +86,10 @@ figcaption
   background-image: url("../assets/curso/BG03.png")
   background-size: cover
   background-repeat: no-repeat
+.tarjeta--BG04
+  background-image: url("../assets/curso/BG04.png")
+  background-size: cover
+  background-repeat: no-repeat
 // Modulo versión escritorio/movil para figuras
 @media (min-width: 992px)
   .desktop 
@@ -292,3 +296,129 @@ thead
     left: -3%
   @media screen and ( max-width: $bp-max-sm )
     left: -4%
+///////// Card hover x 3 tarjetas--------------------------------------
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      background-color: #D0F8DF
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+      h5.t2
+        color: $black
+        display: block
+        background-image: url('../assets/curso/ico-down.svg')
+        background-size: 7% 100%
+        background-repeat: no-repeat
+        padding-left: 2.0rem
+      h5.t1
+        display: none
+        
+      @media (max-width:767px)  
+        p
+          font-size: 0.85em
+        h5.t2
+          background-size: 5.5% 100%
+.crd_hover_txt--body
+  position: absolute
+  padding: 1.5rem
+  bottom: 0    
+  transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+  transform: translateY(calc( 100% - 3.85rem ))
+  background-color: #D0F8DF
+  h5.t2
+      display: none
+  h5.t1
+    display: block
+    color: $black
+    cursor: pointer
+    background-image: url('../assets/curso/ico-up.svg')
+    background-size: 7% 100%
+    background-repeat: no-repeat
+    padding-left: 2.0rem
+@media (min-width:1200px) and (max-width:1400px)  
+  .crd_hover_txt--body
+    p
+      font-size: 0.85em
+.crd_hover_txt .crd_hover_txt--body
+  padding: 1.5rem 0.8rem !important
+  width: 100%
+//- Modulo acordions
+.acordion
+  .acordion__activo
+    background-color: #FFF5D4
+  .acordion__accion__btn--b
+    background-color: #025E20  
+    border: none
+    color: #ffffff
+  .acordion__accion__btn--a
+    background-color: #025E20
+    border: none
+    color: #ffffff
+// modulo tabs
+.tabs-a__tab
+  background-color: #F5E2F0
+.tabs-c__content-item
+  background-color: #FFF5D4  
+.tabs-c__tab
+  background-color: #D0F8DF
+.tabs-c__tab--active
+  background-color: #fff
+.tabs-b__tab--active:hover
+  background-color: #FFE4E4
+.tabs-b__content-item
+  background-color: #DEFFF4
+.tabs-b__tab
+  background-color: #FFE4E4
+.tabs-b__tab--active
+  background-color: #DEFFF4
+.tabs-c__header
+  margin-bottom: 0 !important
+.tabs-c.color-acento-botones .tabs-c__tab--active
+  font-weight: 700
+//- tarjetas cambio de color HOVER
+  
+  // Contenedor de tarjeta (recomendado)
+.card-custom
+  display: flex
+  flex-direction: column
+  height: 100%
+
+  figure
+    margin: 0
+
+    img
+      width: 100%
+      display: block
+.bg
+  &-c1
+    background-color: #FFCCE2
+    border-bottom-left-radius: 15px
+    border-bottom-right-radius: 15px
+    transition: all 0.5s ease
+
+    // Hace que el contenido se adapte y todas las tarjetas crezcan igual
+    height: 100%
+    display: flex
+    align-items: center
+
+    // Espaciado interno (opcional si no lo controlas desde el HTML)
+    padding: 1.5rem
+
+    p
+      margin-bottom: 0
+
+    // Ajustes responsive de texto
+    @media screen and (max-width: $bp-max-xl)
+      p
+        font-size: 0.95em
+
+    @media screen and (max-width: $bp-max-lg)
+      p
+        font-size: 0.9em
+
+    @media screen and (max-width: $bp-max-md)
+      p
+        font-size: 0.9em
