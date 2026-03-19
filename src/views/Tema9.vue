@@ -20,6 +20,13 @@
     #t_9_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 9.1 Atención del nacimiento
     p.mb-4(data-aos="fade-down") Antes del nacimiento, es fundamental identificar signos de trabajo de parto avanzado que indiquen que el nacimiento es inminente. Entre estos signos se incluyen contracciones frecuentes e intensas, deseo involuntario de pujar, salida de líquido amniótico y la visualización de la cabeza del bebé en el canal de parto. La detección temprana permite preparar un entorno seguro y limpio, así como organizar la asistencia de manera adecuada tanto para la madre como para el recién nacido.
+    .row.align-items-center.mb-4(data-aos="flip-down")
+      .col-auto.pe-0(style="z-index:2")
+        figure
+          img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
+      .col-lg-auto.col-9.titulo01(style="z-index:1")
+        .p-2
+          h3.mb-0.ms-3 Preparación del entorno y medidas iniciales
     .row.justify-content-center.mb-4
       .col.col-lg-3.col-12.col-lg.mb-5.mb-lg-0(data-aos="flip-up")
         .tarjeta-avatar
