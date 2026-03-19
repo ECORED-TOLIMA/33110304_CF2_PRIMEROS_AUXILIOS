@@ -576,7 +576,7 @@
                   img(src="@/assets/curso/tema5/img64.svg", alt="Imagen decorativa").img100.m-auto
               p Verificar pulso, sensibilidad y movilidad distal antes y después del procedimiento.
     .row.justify-content-center.mb-4
-      .col.col-lg-1.col-8.col-md-6.order-lg-1.order-1.mb-3
+      .col.col-lg-1.col-8.order-lg-1.mb-3.d-none.d-lg-block
         figure
           img(src='@/assets/curso/tema5/img65.svg', alt='Imagen decorativa')
       .col.col-lg-7.col-12.order-lg-2.order-2

@@ -194,7 +194,7 @@
           p.mb-0.text-center Durante todo el procedimiento se debe vigilar respiración, pulso y estado de conciencia.
     p.mb-4(data-aos="fade-down") Una movilización inadecuada puede ocasionar agravamiento de fracturas vertebrales, lesión medular secundaria, compromiso neurológico irreversible, aumento del dolor o incluso hemorragia interna adicional. Por ello, la aplicación de esta técnica exige coordinación, comunicación clara entre los auxiliadores y criterio clínico para determinar su indicación.
     .row.justify-content-center.mb-0
-      .col.col-lg-1.col-8.col-md-6.order-lg-1.order-1.mb-3
+      .col.col-lg-1.col-8.order-lg-1.mb-3.d-none.d-lg-block
         figure
           img(src='@/assets/curso/tema6/img16.svg', alt='Imagen decorativa')
       .col.col-lg-9.col-12.order-lg-2.order-2

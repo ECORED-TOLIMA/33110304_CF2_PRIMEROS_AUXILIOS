@@ -59,11 +59,11 @@
             img(src='@/assets/curso/tema9/img07.svg', alt='En la figura 8 se presentan las diferentes posiciones que puede adoptar la gestante durante el trabajo de parto, para favorecer el descenso del bebé y facilitar un nacimiento seguro.')
     p.mb-4(data-aos="fade-down") La figura presenta diferentes posiciones que puede adoptar la gestante durante el trabajo de parto. Estas posiciones favorecen el descenso del bebé, reducen la sensación de dolor y facilitan el proceso de nacimiento de manera segura. Estas referencias visuales ayudan al primer respondiente a mantener la seguridad y comodidad de la madre mientras se prepara para la atención del nacimiento.
     .row.justify-content-center.mb-0
-      .col.col-lg-1.col-8.col-md-6.order-lg-1.order-1.mb-3
+      .col.col-lg-1.order-lg-1.mb-3.d-none.d-lg-block
         figure
           img(src='@/assets/curso/tema9/img08.svg', alt='Imagen decorativa')
       .col.col-lg-9.col-12.order-lg-2.order-2
-        p.mb-0(data-aos="fade-down") Durante la salida del bebé, es importante sostener suavemente la cabeza para guiar el nacimiento sin ejercer tracción. El cuerpo debe salir de forma progresiva y natural, acompañando el proceso sin jalar ni presionar. Una vez que el recién nacido haya salido, se debe verificar inmediatamente que respire o llore, como signo de adaptación inicial adecuada.
+        p(data-aos="fade-down") Durante la salida del bebé, es importante sostener suavemente la cabeza para guiar el nacimiento sin ejercer tracción. El cuerpo debe salir de forma progresiva y natural, acompañando el proceso sin jalar ni presionar. Una vez que el recién nacido haya salido, se debe verificar inmediatamente que respire o llore, como signo de adaptación inicial adecuada.
       .col.col-lg-10.col-12.order-3
         .cajon.cajon.C01.color-primario.px-4.py-3
           p.mb-0(data-aos="fade-down") En Colombia, la atención materno-perinatal está regulada por la Resolución 3280 de 2018, que adopta la Ruta Integral de Atención en Salud Materno Perinatal. En un parto de emergencia, el rol del primer respondiente se limita a garantizar condiciones seguras, brindar acompañamiento y apoyo básico, y coordinar el traslado inmediato a un servicio de salud habilitado. Su actuación oportuna puede marcar la diferencia en la seguridad de la madre y del recién nacido.
