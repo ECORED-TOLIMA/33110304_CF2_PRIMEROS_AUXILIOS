@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
-      h1 Medidas de bioseguridad
+      h1 Medidas de bioseguridad en primeros auxilios
     .row.justify-content-center.mb-4
       .col.col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-3
         figure

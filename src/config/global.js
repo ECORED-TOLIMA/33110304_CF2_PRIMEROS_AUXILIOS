@@ -43,7 +43,7 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Medidas de bioseguridad',
+        titulo: 'Medidas de bioseguridad en primeros auxilios',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -104,7 +104,7 @@ export default {
           { numero: '5.2', titulo: 'Quemaduras', hash: 't_5_2' },
           { numero: '5.3', titulo: 'Lesiones osteomusculares', hash: 't_5_3' },
           { numero: '5.4', titulo: 'Amputación traumática', hash: 't_5_4' },
-          { numero: '5.5', titulo: 'Inmovilización y vendajes', hash: 't_5_5' },
+          { numero: '5.5', titulo: 'Inmovilización y vendaje', hash: 't_5_5' },
         ],
       },
       {

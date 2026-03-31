@@ -542,7 +542,7 @@
         p.mb-0(data-aos="fade-down") Una actuación rápida, organizada y técnicamente adecuada mejora significativamente el pronóstico, reduce complicaciones y aumenta la probabilidad de éxito en un eventual reimplante quirúrgico.
     separador
     #t_5_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 5.5 Inmovilización y vendajes
+      h2 5.5 Inmovilización y vendaje
     .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-4(data-aos="flip-up")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema5/img58.jpg')})`}"
